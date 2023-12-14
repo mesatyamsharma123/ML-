@@ -1,6 +1,6 @@
 import easyocr as ocr  #OCR
 
-reader = ocr.Reader(['en'],model_storage_directory='.')
+reader = ocr.Reader(['en','hi'],model_storage_directory='.')
 
 result = reader.readtext("outliers.jpeg")
 

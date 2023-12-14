@@ -5,10 +5,10 @@ import easyocr as ocr  #OCR
 import streamlit as st  #Web App
 
 #title
-st.title("Easy OCR - Extract Text from Images")
+st.title(" Extract Text from Images")
 
 #subtitle
-st.markdown("## Optical Character Recognition - Using `easyocr`, `streamlit`")
+st.markdown("")
 
 st.markdown("")
 
@@ -45,4 +45,4 @@ if image is not None:
 else:
     st.write("Upload an Image")
 
-st.caption("Made by @Satyam Sharma")
+st.caption("Made by @Satyam Sharma and Sakshi Sahu")
